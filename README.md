@@ -7,30 +7,30 @@ This project is a simple implementation of a spam mail classifier using **Logist
 ## 🔁 Workflow
 ![Alt Text](https://github.com/PragnyasuSethi/Spam_Mail_Detection/blob/97118b594708889c15cbe0eee88e406e6cc83586/WorkFlow.png)
 
-### ✅ Data Preprocessing
+###  Data Preprocessing
 - Loaded dataset using `pandas`
 - Replaced `NaN` values with empty strings
 - Label encoding:
   - `spam` → `0`
   - `ham` → `1`
 
-### ✂️ Train-Test Split
+###  Train-Test Split
 - Split into **training (80%)** and **testing (20%)** sets using `train_test_split`
 
-### 🧠 Feature Extraction
+###  Feature Extraction
 - Used `TfidfVectorizer` with English stop words
 - Converted messages into feature vectors
 
-### 🤖 Model Training
+###  Model Training
 - Trained a `LogisticRegression` model on the training data
 
-### 📈 Evaluation
+###  Evaluation
 - Accuracy on **training data**: `96.70%`
 - Accuracy on **test data**: `96.90%`
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo:
 
