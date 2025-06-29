@@ -5,7 +5,7 @@ This project is a simple implementation of a spam mail classifier using **Logist
 ---
 
 ## 🔁 Workflow
-![Alt Text]()
+![Alt Text](https://github.com/PragnyasuSethi/Spam_Mail_Detection/blob/97118b594708889c15cbe0eee88e406e6cc83586/WorkFlow.png)
 
 ### ✅ Data Preprocessing
 - Loaded dataset using `pandas`
